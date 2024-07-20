@@ -39,9 +39,9 @@ const Navbar = () => {
               </button>
               {isDropdownOpen && (
                 <div className="absolute left-[-60px] mt-2 w-48 bg-[#1e293b] border border-[#2e3a4b] rounded-md shadow-lg">
-                  <a href="#" className="block px-4 py-2 text-[#e0e7ff] hover:bg-[#334155] text-center">Discord</a>
-                  <a href="#" className="block px-4 py-2 text-[#e0e7ff] hover:bg-[#334155] text-center">Twitter</a>
-                  <a href="#" className="block px-4 py-2 text-[#e0e7ff] hover:bg-[#334155] text-center">YouTube</a>
+                  <a href="https://discord.gg/tzHte7vBWv" target='_blank' className="block px-4 py-2 text-[#e0e7ff] hover:bg-[#334155] text-center">Discord</a>
+                  <a href="https://x.com/hpmaid_" target='_blank' className="block px-4 py-2 text-[#e0e7ff] hover:bg-[#334155] text-center">Twitter</a>
+                  <a href="https://www.youtube.com/@HaremProjectMaid" target='_blank' className="block px-4 py-2 text-[#e0e7ff] hover:bg-[#334155] text-center">YouTube</a>
                 </div>
               )}
             </div>
