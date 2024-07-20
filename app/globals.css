@@ -67,3 +67,22 @@
     @apply bg-background text-foreground;
   }
 }
+
+body {
+  background-image: linear-gradient(to right top, #161827, #141724, #131521, #12141e, #10121b);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
+.float {
+  animation: float 3s ease-in-out infinite;
+}
