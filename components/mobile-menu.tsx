@@ -21,7 +21,7 @@ export default function MobileMenu() {
                         </svg>
                     </Button>
                 </SheetTrigger>
-                <SheetContent className="bg-[#1e293b] flex flex-col justify-between h-full" side={"left"}>
+                <SheetContent className="bg-[#1e293b] flex flex-col justify-between h-full border-none" side={"left"}>
                     <div>
                         <SheetHeader>
                             <SheetTitle className="text-[#e0e7ff]">Menu</SheetTitle>
