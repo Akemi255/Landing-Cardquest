@@ -1,8 +1,10 @@
 import type { Metadata } from "next";
 import { Inter as FontSans } from "next/font/google";
+
 import Head from "next/head";
 import Nav from '../components/Nav';
 import Footer from '../components/Footer';
+
 import "./globals.css";
 
 const fontSans = FontSans({
@@ -20,7 +22,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="en">
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <script src="https://kit.fontawesome.com/12144a7cc3.js" crossOrigin="anonymous"></script>
       </Head>
       <body className="font-sans">
         <Nav />
