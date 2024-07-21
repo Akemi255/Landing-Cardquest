@@ -27,7 +27,7 @@ export default function MobileMenu() {
                             <SheetTitle className="text-[#e0e7ff]">Menu</SheetTitle>
                         </SheetHeader>
                         <div className="flex flex-col items-center py-4 space-y-2">
-                            <Link href="#" className="block py-2 px-4 text-[#e0e7ff] hover:bg-[#334155] w-full text-center">Home</Link>
+                            <Link href="/" className="block py-2 px-4 text-[#e0e7ff] hover:bg-[#334155] w-full text-center">Home</Link>
                             <Link href="#" className="block py-2 px-4 text-[#e0e7ff] hover:bg-[#334155] w-full text-center">Guide</Link>
                             <div className="w-full bg-[#1e293b]">
                                 <Link href="https://discord.gg/tzHte7vBWv" target='_blank' className="block px-4 py-2 text-[#e0e7ff] hover:bg-[#334155] text-center">Discord</Link>

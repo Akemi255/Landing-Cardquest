@@ -21,7 +21,7 @@ const Navbar = () => {
 
           {/* Primary nav */}
           <div className="hidden md:flex items-center space-x-5 text-[#e0e7ff]">
-            <Link href="#" className="hover:text-[#9ca3af]">Home</Link>
+            <Link href="/" className="hover:text-[#9ca3af]">Home</Link>
             <Link href="#" className="hover:text-[#9ca3af]">Guide</Link>
 
             {/* Popover */}

@@ -28,7 +28,7 @@ export default function Page() {
               <Link
                 href="https://discord.gg/tzHte7vBWv"
                 target="_blank"
-                className="py-2 px-6 bg-[#7289da] text-white rounded-md hover:bg-[#5b6eae] transform scale-100 hover:scale-105 transition-transform duration-300"
+                className="py-2 px-6 bg-[#5865F2] text-white rounded-md hover:bg-[#4D5BF2] transform scale-100 hover:scale-105 transition-transform duration-300"
               >
                 Discord
               </Link>
