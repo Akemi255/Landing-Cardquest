@@ -86,3 +86,10 @@ body {
 .float {
   animation: float 3s ease-in-out infinite;
 }
+
+.img-waifu {
+  mask-image: linear-gradient(
+    black 80%, 
+    transparent 
+  );
+}

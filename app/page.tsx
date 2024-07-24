@@ -12,9 +12,9 @@ export const metadata: Metadata = {
 export default function Page() {
   return (
     <>
-      <main className="flex flex-col md:flex-row items-start justify-between min-h-[80vh] p-8 max-w-7xl mx-auto mt-8">
+      <main className="flex flex-col md:flex-row items-start justify-center min-h-[80vh] p-8 max-w-6xl mx-auto mt-8">
 
-        <div className="flex flex-col md:flex-row items-center justify-between w-full max-w-7xl mx-auto">
+        <div className="flex flex-col md:flex-row items-center justify-center w-full max-w-7xl mx-auto">
 
           <div className="md:w-[30vw] mb-8 md:mb-0">
             <h1 className="text-4xl font-bold text-[#d946ef] mb-3 uppercase">
@@ -42,11 +42,11 @@ export default function Page() {
           </div>
 
 
-          <div className="md:w-1/2 flex justify-center float">
+          <div className="md:w-1/2 flex justify-end float-right">
             <img
               src="assets/waifu.jpg"
               alt="Waifu"
-              className="w-[350px]"
+              className="w-[350px] ml-auto mr-0 img-waifu"
             />
           </div>
         </div>
@@ -61,8 +61,7 @@ export default function Page() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
 
             {/* Server 1 */}
-
-            <a href="#" target="_blank" className="bg-[#2a2d35] p-6 rounded-lg shadow-lg flex items-center">
+            <a href="#" target="_blank" className="bg-[#2a2d35] p-6 rounded-lg shadow-lg flex items-center transform scale-100 hover:scale-105 transition-transform duration-300">
               <img src="assets/logo.jpg" alt="Server 1" className="w-16 h-16 rounded-full mr-4" />
               <div>
                 <h3 className="text-xl font-semibold text-[#fff]">Server 1</h3>
@@ -71,8 +70,7 @@ export default function Page() {
             </a>
 
             {/* Server 2 */}
-
-            <a href="#" target="_blank" className="bg-[#2a2d35] p-6 rounded-lg shadow-lg flex items-center">
+            <a href="#" target="_blank" className="bg-[#2a2d35] p-6 rounded-lg shadow-lg flex items-center transform scale-100 hover:scale-105 transition-transform duration-300">
               <img src="assets/logo.jpg" alt="Server 2" className="w-16 h-16 rounded-full mr-4" />
               <div>
                 <h3 className="text-xl font-semibold text-[#fff]">Server 2</h3>
@@ -81,8 +79,7 @@ export default function Page() {
             </a>
 
             {/* Server 3 */}
-
-            <a href="#" target="_blank" className="bg-[#2a2d35] p-6 rounded-lg shadow-lg flex items-center">
+            <a href="#" target="_blank" className="bg-[#2a2d35] p-6 rounded-lg shadow-lg flex items-center transform scale-100 hover:scale-105 transition-transform duration-300">
               <img src="assets/logo.jpg" alt="Server 3" className="w-16 h-16 rounded-full mr-4" />
               <div>
                 <h3 className="text-xl font-semibold text-[#fff]">Server 3</h3>
@@ -91,8 +88,7 @@ export default function Page() {
             </a>
 
             {/* Server 4 */}
-
-            <a href="#" target="_blank" className="bg-[#2a2d35] p-6 rounded-lg shadow-lg flex items-center">
+            <a href="#" target="_blank" className="bg-[#2a2d35] p-6 rounded-lg shadow-lg flex items-center transform scale-100 hover:scale-105 transition-transform duration-300">
               <img src="assets/logo.jpg" alt="Server 4" className="w-16 h-16 rounded-full mr-4" />
               <div>
                 <h3 className="text-xl font-semibold text-[#fff]">Server 4</h3>
@@ -101,8 +97,7 @@ export default function Page() {
             </a>
 
             {/* Server 5 */}
-
-            <a href="#" target="_blank" className="bg-[#2a2d35] p-6 rounded-lg shadow-lg flex items-center">
+            <a href="#" target="_blank" className="bg-[#2a2d35] p-6 rounded-lg shadow-lg flex items-center transform scale-100 hover:scale-105 transition-transform duration-300">
               <img src="assets/logo.jpg" alt="Server 5" className="w-16 h-16 rounded-full mr-4" />
               <div>
                 <h3 className="text-xl font-semibold text-[#fff]">Server 5</h3>
@@ -111,8 +106,7 @@ export default function Page() {
             </a>
 
             {/* Server 6 */}
-
-            <a href="#" target="_blank" className="bg-[#2a2d35] p-6 rounded-lg shadow-lg flex items-center">
+            <a href="#" target="_blank" className="bg-[#2a2d35] p-6 rounded-lg shadow-lg flex items-center transform scale-100 hover:scale-105 transition-transform duration-300">
               <img src="assets/logo.jpg" alt="Server 6" className="w-16 h-16 rounded-full mr-4" />
               <div>
                 <h3 className="text-xl font-semibold text-[#fff]">Server 6</h3>
@@ -131,6 +125,7 @@ export default function Page() {
           </div>
         </div>
       </section>
+
 
     </>
   );
