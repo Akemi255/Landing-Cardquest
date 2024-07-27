@@ -17,12 +17,12 @@ export default function Servers() {
           Explore more servers or see the ones that support us!
         </p>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          <ServerCard />
-          <ServerCard />
-          <ServerCard />
-          <ServerCard />
-          <ServerCard />
-          <ServerCard />
+          <ServerCard serversCount={1} membersCount={1000} />
+          <ServerCard serversCount={2} membersCount={3000} />
+          <ServerCard serversCount={3} membersCount={6000} />
+          <ServerCard serversCount={4} membersCount={10000} />
+          <ServerCard serversCount={5} membersCount={10000} />
+          <ServerCard serversCount={6} membersCount={10000} />
         </div>
         <div className="flex justify-center mt-8">
           <Link

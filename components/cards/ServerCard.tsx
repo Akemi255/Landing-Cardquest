@@ -1,9 +1,14 @@
-import React from 'react'
-import Link from "next/link"
-import Image from "next/image"
+import React from "react";
+import Link from "next/link";
+import Image from "next/image";
 
-
-export default function ServerCard() {
+export default function ServerCard({
+  serversCount,
+  membersCount,
+}: {
+  serversCount: number;
+  membersCount: number;
+}) {
   return (
     <Link
       href="#"
@@ -13,13 +18,15 @@ export default function ServerCard() {
       <Image
         src="/assets/logo.jpg"
         alt="Server 1"
-        width={16}
-        height={16}
+        width={64}
+        height={64}
         className="rounded-full mr-4"
       />
       <div>
-        <h3 className="text-xl font-semibold text-[#fff]">Server 1</h3>
-        <p className="text-gray-300">3,000 members</p>
+        <h3 className="text-xl font-semibold text-[#fff]">
+          Server {serversCount}
+        </h3>
+        <p className="text-gray-300">{membersCount} members</p>
       </div>
     </Link>
   );

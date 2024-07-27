@@ -7,6 +7,7 @@ import Link from "next/link";
 import Image from "next/image";
 import Servers from "./components/Servers";
 
+//TODO: add
 export const metadata: Metadata = {
   title: "Harem: Project Maid",
   description:
@@ -16,7 +17,7 @@ export const metadata: Metadata = {
 export default function Page() {
   return (
     <>
-      <main className="flex flex-col md:flex-row items-start justify-center min-h-[80vh] p-8 max-w-6xl mx-auto mt-8">
+      <main className="flex flex-col md:flex-row items-start justify-center min-h-[80vh] p-8 max-w-7xl mx-auto mt-8">
         <div className="flex flex-col md:flex-row items-center justify-center w-full max-w-7xl mx-auto">
           <div className="md:w-[30vw] mb-8 md:mb-0">
             <h1 className="text-4xl font-bold text-[#d946ef] mb-3 uppercase">
@@ -26,7 +27,7 @@ export default function Page() {
               Welcome to{" "}
               <span className="text-[#4361ee]">Harem: Project Maid</span>.
               Collect and trade to build your perfect harem. Discover the rarity
-              of each card and rise in the global ranking. ¡Join our passionate
+              of each card and rise in the global ranking. Join our passionate
               Anime & Manga community! ✨
             </p>
 
@@ -53,13 +54,12 @@ export default function Page() {
               alt="Waifu"
               width={470}
               height={682}
-              className="ml-auto mr-0 img-waifu invisible"
+              className="ml-auto mr-0 img-waifu"
             />
           </div>
         </div>
       </main>
 
-      {/* Servers */}
       <Servers />
     </>
   );
